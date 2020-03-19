@@ -1,7 +1,5 @@
 package com.traficaccidentsanalysis.backend.message.request;
 import java.util.Set;
-
-import javax.validation.constraints.*;
  
 public class SignUpForm {
     @NotBlank
