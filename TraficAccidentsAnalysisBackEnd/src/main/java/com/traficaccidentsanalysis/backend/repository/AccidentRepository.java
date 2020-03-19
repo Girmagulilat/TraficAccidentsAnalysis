@@ -1,5 +1,8 @@
 package com.traficaccidentsanalysis.backend.repository;
 
-public interface AccidentRepository {
+import com.traficaccidentsanalysis.backend.model.Motorist;
+
+@Repository
+public interface AccidentRepository extends JpaRepository<Accident, Long>{
 
 }

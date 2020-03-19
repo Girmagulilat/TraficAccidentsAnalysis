@@ -5,7 +5,7 @@ import java.util.Optional;
 
 import com.traficaccidentsanalysis.backend.model.Motorist;
 
-
+@Repository
 public interface MotoristRepository extends JpaRepository<Motorist, Long> {
 
 	Optional<Motorist> findByMotoristid(int motoristId);
