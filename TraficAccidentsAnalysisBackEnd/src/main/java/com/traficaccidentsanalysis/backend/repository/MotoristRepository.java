@@ -8,9 +8,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.traficaccidentsanalysis.backend.model.Motorist;
 
 
+public interface MotoristRepository extends JpaRepository<Motorist, Long> {
 
-public interface MotoristRepository extends JpaRepository<Motorist, Long>{
 	Optional<Motorist> findByMotoristid(int motoristId);
 	List<Motorist> findAllMotorists();
-	boolean existsBymotoristid(int motorist);
+	Motorist findMotoristByMotoristId(int motoristId);
+    boolean existsBymotoristid(int motorist);
+
 }
