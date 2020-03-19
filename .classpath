@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="TraficAccidentsAnalysisBackEnd/.mvn/wrapper"/>
+	<classpathentry kind="src" path="TraficAccidentsAnalysisBackEnd/src/main/java"/>
+	<classpathentry kind="src" path="TraficAccidentsAnalysisBackEnd/src/test/java"/>
+	<classpathentry kind="src" path="TraficAccidentsAnalysisd/.mvn/wrapper"/>
+	<classpathentry kind="src" path="TraficAccidentsAnalysisd/src/main/java"/>
+	<classpathentry kind="src" path="TraficAccidentsAnalysisd/src/test/java"/>
+	<classpathentry kind="lib" path="C:/Users/fiktiru/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.4.RELEASE/spring-boot-autoconfigure-2.2.4.RELEASE.jar" sourcepath="C:/Users/fiktiru/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.4.RELEASE/spring-boot-autoconfigure-2.2.4.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework.boot"/>
+			<attribute name="maven.artifactId" value="spring-boot-autoconfigure"/>
+			<attribute name="maven.version" value="2.2.4.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/fiktiru/.m2/repository/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar" sourcepath="C:/Users/fiktiru/.m2/repository/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-webmvc"/>
+			<attribute name="maven.version" value="5.2.3.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
