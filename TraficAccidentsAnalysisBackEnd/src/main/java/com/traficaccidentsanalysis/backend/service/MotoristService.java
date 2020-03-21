@@ -11,7 +11,7 @@ import com.traficaccidentsanalysis.backend.model.Motorist;
 public interface MotoristService {
 	List<Motorist> findAllMotorists();
 	List<Motorist> addMotorist(Motorist motorist);
-	Optional<Motorist> findById(int motoristId);
+	boolean findById(int motoristId);
 	Optional<Motorist> findByName(String motoristName);
 }
  
